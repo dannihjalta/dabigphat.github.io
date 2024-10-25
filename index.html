@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        img.logo {
+            width: 200px; /* Adjust size if needed */
+            margin-top: 20px;
+        }
+
+        .header {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .brodtekst {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .artist-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: black;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .artist-button:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.1); /* Slight enlargement on hover */
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/3ded630e-fb8b-a9c9-6bec-5a8d93730fc3.png" alt="Logo" class="logo">
+    <div class="header">DABIGPHAT.COM</div>
+    <div class="brodtekst">listen to your favorite artists</div>
+    <div class="button-container">
+        <a class="artist-button" href="https://open.spotify.com/artist/0YAs4ynZpt3mVcx0kNVJHw?si=KW2sbZHUTv2qwjHBX5A4RQ" target="_blank">Daniel Gray</a>
+        <a class="artist-button" href="https://open.spotify.com/artist/3CN5FHzKvPdEtGnpw6YFWS?si=ElafDKOhQEqVuOzB7nmbmQ" target="_blank">Simon Vestarr</a>
+        <a class="artist-button" href="https://open.spotify.com/artist/76Pzt872Vj5YKExRULbsaf?si=EL6O8Xz0SFq0fT05C3TB9g" target="_blank">Hjalti Gunnlaugsson</a>
+        <a class="artist-button" href="https://open.spotify.com/artist/2NDnB6jALqvEfLtXbMYG2z?si=DbrsXiXESMWydF-QV-gypg" target="_blank">HinnRYK</a>
+        <a class="artist-button" href="https://open.spotify.com/artist/2G9dWHqwBZBFB3PXYdPoNR?si=-HSb5IfyThajpAK-8tiogw" target="_blank">Grace Woe</a>
+    </div>
+</body>
+</html>
