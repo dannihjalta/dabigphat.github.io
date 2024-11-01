@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grace Woe</title>
+    <title>Daniel Gray</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <style>
@@ -17,14 +17,13 @@
             color: white;
             font-family: 'Roboto', sans-serif;
             display: flex;
-            justify-content: center;
-            align-items: center;
             flex-direction: column;
-            height: 100vh;
+            align-items: center;
             text-align: center;
+            min-height: 100vh;
         }
 
-        img.logo {
+        .logo {
             width: 200px;
             margin-top: 20px;
         }
@@ -44,6 +43,17 @@
             max-width: 500px;
         }
 
+        .no-link-color {
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .no-link-color:hover {
+            color: white;
+            transform: scale(1.05);
+        }
+
         .image-row {
             display: flex;
             gap: 20px;
@@ -52,9 +62,9 @@
         }
 
         .image-row img {
-            width: 200px;
+            width: 400px;
             border-radius: 20px;
-            transition: transform 0.3s;
+            transition: transform 2s;
         }
 
         .image-row img:hover {
@@ -76,7 +86,7 @@
             border: none;
             border-radius: 5px;
             text-decoration: none;
-            transition: transform 0.3s ease, background-color 0.3s ease;
+            transition: transform 2s ease, background-color 0.3s ease;
         }
 
         .artist-button:hover {
@@ -87,25 +97,26 @@
     </style>
 </head>
 <body>
-    <a href="index.html"><img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/3ded630e-fb8b-a9c9-6bec-5a8d93730fc3.png" alt="Logo" class="logo"></a>
-    <div class="header">GRACE WOE</div>
-    <div class="longertekst">Grace Woe is on your favorite streaming sites</div>
+    <a href="index.html">
+        <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/3ded630e-fb8b-a9c9-6bec-5a8d93730fc3.png" alt="Logo" class="logo">
+    </a>
+    <div class="header">DANIEL GRAY</div>
+    
+    <a href="https://open.spotify.com/artist/0YAs4ynZpt3mVcx0kNVJHw?si=WUVihvBlQ1iMRTMdfVUP4g" class="no-link-color">
+        <div class="longertekst">Daniel Gray is on your favorite streaming sites</div>
+    </a>
+    
     <div class="image-row">
         <a href="https://open.spotify.com/artist/2G9dWHqwBZBFB3PXYdPoNR" target="_blank">
-            <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/6b9736ec-34ee-fe30-a995-4dbe03ea3198.png" alt="Grace Woe">
-        </a>
-        <a href="https://open.spotify.com/artist/2G9dWHqwBZBFB3PXYdPoNR" target="_blank">
-            <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/a41d6557-95f6-013d-627c-22f388faf07f.png" alt="Grace Woe">
-        </a>
-        <a href="https://open.spotify.com/artist/2G9dWHqwBZBFB3PXYdPoNR" target="_blank">
-            <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/b7085805-4c58-5705-182b-e06a5ab44b10.gif" alt="Grace Woe">
+            <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/01718e5d-78a6-e83e-59e2-075c427d4cc2.png" alt="Daniel Gray">
         </a>
     </div>
     <div class="longertekst">
-         <p>Woe started as a playful creative session collaborative. The sessions took 
-            on a life of their own after a while and we couldn't ignore the results. But first 
-            & foremost we couldn't ignore the joy of the process. 
-            Not every collaboration feels like this. We would know. 
+         <p>Daniel Gray started as an attempt at making something sound like.. something. 
+             At first, there was only midi, no audio. So the whole set-up needed to be 
+             plugged into a mixer that then was recorded on cassette on the home stereo. 
+             Nothing really sounded like what it was trying to sound like, but it did sound 
+             like something. "What more can we do?" echoed in the mind. This still hasn't been answered fully, so the quest goes on.
          </p>
     </div>
     <div class="button-container">
