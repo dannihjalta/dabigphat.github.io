@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        img.logo {
+            width: 200px;
+            margin-top: 20px;
+        }
+
+        .header {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .brodtekst {
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .longertekst {
+            font-family: "Shadows Into Light", cursive;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .artist-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: black;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .artist-button:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.1);
+        }
+
+        .image-row {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .image-row img {
+            width: 200px;
+            border-radius: 20px;
+            transition: transform 0.3s;
+        }
+
+        .image-row img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/3ded630e-fb8b-a9c9-6bec-5a8d93730fc3.png" alt="Logo" class="logo">
+    <div class="header">GRACE WOE</div>
+    <div class="longertekst">Grace Woe is on your favourite streaming site</div>
+    <div class="button-container">
+        <div class="image-row">
+            <a href="https://open.spotify.com/artist/2G9dWHqwBZBFB3PXYdPoNR?si=-HSb5IfyThajpAK-8tiogw" target="_blank">
+                <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/6b9736ec-34ee-fe30-a995-4dbe03ea3198.png" alt="Grace Woe">
+            </a>
+            <a href="https://open.spotify.com/artist/2G9dWHqwBZBFB3PXYdPoNR?si=-HSb5IfyThajpAK-8tiogw" target="_blank">
+                <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/a41d6557-95f6-013d-627c-22f388faf07f.png" alt="Grace Woe">
+            </a>
+        </div>
+        <div class="longertekst">
+            Woe is a labour of love and limerence in equal measure at this point. <br>
+            One wants to, but in a sense also has to a little bit. <br>
+            This is the dilemma of the sweet siren/torturer. <br>
+            Only good things though, mazel mazel.
+        </div>
+    </div>
+</body>
+</html>
