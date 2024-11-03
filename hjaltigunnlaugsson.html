@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hjalti Gunnlaugsson</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        .logo {
+            width: 200px;
+            margin-top: 20px;
+        }
+
+        .header {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .longertekst {
+            font-family: "Shadows Into Light", cursive;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 20px 0;
+            max-width: 500px;
+        }
+
+        .no-link-color {
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .no-link-color:hover {
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .image-row {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .image-row img {
+            width: 400px;
+            border-radius: 20px;
+            transition: transform 2s;
+        }
+
+        .image-row img:hover {
+            transform: scale(1.05);
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .artist-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-family: "Shadows Into Light", cursive;
+            font-size: 18px;
+            color: whitesmoke;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: transform 2s ease, background-color 0.3s ease;
+        }
+
+        .artist-button:hover {
+            background-color: #333;
+            color: white;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/3ded630e-fb8b-a9c9-6bec-5a8d93730fc3.png" alt="Logo" class="logo">
+    </a>
+    <div class="header">Hjalti Gunnlaugsson</div>
+    
+    <a href="https://open.spotify.com/artist/76Pzt872Vj5YKExRULbsaf?si=X__HAGwuRk6VAET_d9qMWQ" class="no-link-color">
+        <div class="longertekst">Hjalti is on your favorite streaming sites</div>
+    </a>
+    
+    <div class="image-row">
+        <a href="https://open.spotify.com/artist/76Pzt872Vj5YKExRULbsaf?si=X__HAGwuRk6VAET_d9qMWQ" target="_blank">
+            <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/e456e915-2bb9-1b1e-ae0a-a3cb83fbd2be.jpg" alt="Símon Vestarr">
+        </a>
+    </div>
+    <div class="longertekst">
+         <p>Hjalti Gunnlaugsson has been a songwriting force for decades. The man behind the 
+            classic 'Sannleikurinn,' the title track of the album 'Sannleikurinn í mínu lífi.' 
+            He has written countless praise songs, rock songs & all kinds really. We're working 
+            on getting the music on to streaming sites, as of right now he only has one song up under 
+            his moniker. We hope to remedy this really quickly.
+        </p>
+    </div>
+    <div class="button-container">
+        <a class="artist-button" href="index.html">Home</a>
+    </div>
+</body>
+</html>
