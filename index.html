@@ -3,80 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>daBIGPHAT!!</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background-color: black;
-            color: white;
-            font-family: 'Roboto', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            text-align: center;
-        }
-
-        img.logo {
-            width: 200px;
-            margin-top: 20px;
-        }
-
-        .header {
-            font-size: 32px;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-
-        .longertekst {
-            font-family: "Shadows Into Light", cursive;
-            font-size: 20px;
-            text-transform: uppercase;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .button-container {
-            text-align: center;
-        }
-
-        .artist-button {
-            display: block;
-            margin: 10px auto;
-            padding: 10px 20px;
-            font-family: "Shadows Into Light", cursive;
-            font-size: 18px;
-            color: black;
-            background-color: white;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: transform 1s ease, background-color 0.3s ease;
-        }
-
-        .artist-button:hover {
-            background-color: #f0f0f0;
-            transform: scale(1.1);
-        }
-    </style>
+    <script defer src="node_modules/swup/dist/Swup.umd.js"></script>
+    <script defer src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>daBIGPHAT!!</title>
 </head>
 <body>
-    <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/3ded630e-fb8b-a9c9-6bec-5a8d93730fc3.png" alt="Logo" class="logo">
-    <div class="header">DABIGPHAT.COM</div>
-    <div class="longertekst">Listen to your favorite artists</div>
-    <div class="button-container">
-        <a class="artist-button" href="danielgray.html" >DANIEL GRAY</a>
-        <a class="artist-button" href="https://open.spotify.com/artist/3CN5FHzKvPdEtGnpw6YFWS" target="_blank">SIMON VESTARR</a>
-        <a class="artist-button" href="https://open.spotify.com/artist/76Pzt872Vj5YKExRULbsaf" target="_blank">HJALTI GUNNLAUGSSON</a>
-        <a class="artist-button" href="https://hinnryk.com" target="_blank">HinnRYK</a>
-        <a class="artist-button" href="gracewoe.html">GRACE WOE</a>
-    </div>
+    <main id="swup" class="transition-fade" data-swup="container">
+        <img src="https://mcusercontent.com/f8368ab91b705f1d5ddfa17c4/images/3ded630e-fb8b-a9c9-6bec-5a8d93730fc3.png" alt="Logo" class="logo">
+        <div class="header">DABIGPHAT.COM</div>
+        <div class="longertekst">Listen to your favorite artists</div>
+        <div class="button-container">
+            <a class="artist-button" href="/danielgray.html" data-swup="link">DANIEL GRAY</a>
+            <a class="artist-button" href="/simonvestarr.html" data-swup="link">SIMON VESTARR</a>
+            <a class="artist-button" href="/hjaltigunnlaugsson.html" data-swup="link"">HJALTI GUNNLAUGSSON</a>
+            <a class="artist-button" href="https://hinnryk.com" target="_blank">HinnRYK</a>
+            <a class="artist-button" href="/gracewoe.html" data-swup="link">GRACE WOE</a>
+        </div>
+    </main>
 </body>
 </html>
