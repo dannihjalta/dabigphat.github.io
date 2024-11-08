@@ -30,8 +30,9 @@ html.is-animating .transition-fade {
 }
 
 .header {
-    font-size: 32px;
-    font-weight: bold;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 40px;
+    font-weight: lighter;
     margin: 20px 0;
 }
 
@@ -43,6 +44,13 @@ html.is-animating .transition-fade {
     margin: 20px 0;
     max-width: 500px;
 }
+.readabletxt {
+    font-family: "Sometype Mono", monospace;
+    font-weight: 400;
+    font-style: lighter;
+    margin: 20px 0;
+    max-width: 500px;
+  }
 
 .no-link-color {
     color: white;
